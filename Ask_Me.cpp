@@ -449,10 +449,12 @@ struct QuestionManager
         }
     }
 };
-struct Askme
+class Askme
 {
+    private:
     UserManager um;
     QuestionManager qm;
+    public:
     void Run()
     {
         Load_database();
